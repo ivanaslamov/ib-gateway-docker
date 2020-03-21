@@ -36,7 +36,7 @@ COPY --from=builder /root/run.sh run.sh
 COPY ibc_config.ini ibc/config.ini
 
 ENV DISPLAY :0
-ENV TRADING_MODE paper
+ENV TRADING_MODE live
 ENV TWS_PORT 4002
 ENV VNC_PORT 5900
 
